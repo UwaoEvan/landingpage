@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(106 110 113);
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 20px;
+    margin-top: 2%;
+}
+nav > h2{
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+	font-weight: 500;
+}
+
+nav > h2:hover{
+    cursor: pointer;
+}
+.home__menu > ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+    color: #fff
+}
+
+.home__menu > ul > li > a{
+    padding: 10px;
+    border: 1px solid #fff;
+    margin: 2px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+	font-weight: 500;
+}
+
+.home__menu > ul > li > a:hover{
+    background-color: blue;
+}
+.home__banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+.title{
+    color: #fff;
+    padding: 10px;
+    font-family: 'Russo One', sans-serif;
+	font-weight: 500;
+}
+.span{
+    color: cornflowerblue
+}
+.paragraph{
+    color:#fff;
+    padding: 10px;
+    font-family: 'Russo One', sans-serif;
+	font-weight: 100;
+}
+.home__buttons{
+    padding: 10px
+}
+.btnbold{
+    background-color: cornflowerblue;
+    border: 1px solid #fff;
+    outline: none;
+    padding: 20px;
+    color: #fff;
+    margin: 10px;
+    font-family: 'Russo One', sans-serif;
+	font-weight: 500;
+}
+
+.btnbold:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #fff
+}
+.btnoutline{
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    padding: 20px;
+    color: #fff;
+    margin: 10px;
+    font-family: 'Russo One', sans-serif;
+	font-weight: 500;
+}
+.btnoutline:hover{
+    background-color:cornflowerblue ;
+    cursor: pointer;
+}
